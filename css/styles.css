@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    text-align: center; /*text-align on parent*/
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+h1{
+    margin: 50px auto 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    color: #66BFBF;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; /* 16px = 100% = 1 rem, 40px = 2.5 rem */
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+hr{
+    background-color:transparent;
+    border-color: #EAF6F6;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 6px;
+    height: 0px;
+    width: 5%;
+}
+
+p{
+    line-height: 2;
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    background-color: whitesmoke;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 20px 0px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.skills{
+    margin: 50px auto;
+}
+
+.skill-row{
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.computer-img{
+    width: 25%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chili-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.profile{
+    margin: 50px auto;
+}
+
+.profilepic
+{
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+
+.footer-link{
+    color: #11999E;
+    font-weight:bold;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.footer-link:hover{
+    color: #EAF6F6;
+}
+
+.copyright{
+    font-size: 0.75em;
+    color: #EAF6F6;
+    padding: 10px 0 0;
+}
+
+.textCenter{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.contact-me{
+    margin-bottom: 50px;
+}
+
+.btn{
+    border: 2px solid;
+    border-radius: 4px;
+    color: #66BFBF;
+    background-color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.btn:hover
+{
+    color: whitesmoke;
+    background-color: #66BFBF;
+    border: 2px solid #66BFBF;
+}
