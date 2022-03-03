@@ -62,12 +62,21 @@ p{
     position: absolute;
     right: 300px;
     top: 50px;
+    max-width: 100%;
+    max-height: 90%;
 }
 
 .bottom-cloud{
     position: absolute;
     left: 300px;
     bottom: 300px;
+    max-width: 100%;
+    max-height: 90%;
+}
+
+.mountain{
+  max-width: 100%;
+  max-height: 90%;
 }
 
 .pro{
